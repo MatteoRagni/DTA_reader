@@ -34,11 +34,11 @@ Array that contains channels value data. Each channel is an Hash that has the fo
 
 ``` ruby
 DTA_reader.output_ary[0] = {
-  :id => Fixnum # channel id. 0 for Time channel, automatically generated
-  :name => String # A name (without spaces) to identify the collected values
-  :unit => String # Measurement unit of the channel
-  :values => Array # Array of collected values, scaled using factor from raw data
-  :factor => Float # Scaling factor for raw data
+  :id     => Fixnum # channel id. 0 for Time channel, automatically generated
+  :name   => String # A name (without spaces) to identify the collected values
+  :unit   => String # Measurement unit of the channel
+  :values => Array  # Array of collected values, scaled using factor from raw data
+  :factor => Float  # Scaling factor for raw data
   :offset => Fixnum # Line at wich data are written in original file
 }
 ```
