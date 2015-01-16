@@ -3,6 +3,14 @@
 This is a simple class for Ruby that allows to read iTNC 530 oscilloscope data and export it as a
 TSV file.
 
+## Install
+
+Simply run:
+
+``` bash
+gem install DTA_reader
+```
+
 ## Interface
 
 #### `DTA_reader.new(inputfile, outputfile = nil)`
